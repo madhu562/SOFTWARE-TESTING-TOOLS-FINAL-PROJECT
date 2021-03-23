@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <style>
+      .container_img {
+        position: relative;
+        width: 100%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008bba57;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+      }
+      
+      .container_img:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <img src="./img/food_logo.jpg" width="150" height="100" >
+
+           <h1 class="highlight" style="float: right;">  Food Love </h1> 
+        </div>
+        <nav>
+          <ul>
+
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="recipies.html">Recipies</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="checkout.html">Cart Checkout</a></li>
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fa fa-fw fa-user"></i>USER
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="SignUp.html">SignUp</a>
+                
+              </div>
+          </div>
+           </ul>
+        </nav>
+      </div>
+    </header>
+
+   
+   
+   
+    <section id="showcase2">
+      <div class="container">
+
+        <br><br><br><br><br><br><br><br><br><br>
+        <h1 style="font-style:oblique; color: rgb(129, 4, 4);">We make what you order</h1>
+      </div>
+    </section>
+
+
+
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <h1 style="color: rgb(105, 15, 15); text-align: center;">Our Top Chefs</h1>
+
+    <div class="container_img">
+      <img src="img/chef1.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Introducing Joel Robuchon – the chef with the most Michelin stars. He holds the number one spot among the top 10 chefs in the world, which makes him the best chef in the world according to the Michelin star rating. , Robuchon is the proud owner of 31. He was also named “Chef of the Century” on numerous occasions.</div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container_img">
+      <img  src="img/chef2.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Among the top 10 chefs in the world, Alain Ducasse may easily be the most successful one. Here is what he achieved:
+
+          Earned and kept his 21 Michelin stars during his entire career
+          He is the proud owner of 3 restaurants with an amazing 3 Michelin Stars
+          Opened around 34 restaurants worldwide</div>
+      </div>
+    </div>
+
+
+    <div class="container_img">
+    
+    <img  src="img/chef3.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">Gordon Ramsay may be the most familiar face to the general public thanks to his exposure on TV. He has a famously hot temper and the ability to cook the most delicious recipes from British cuisine. Ramsay has 16 stars in his Michelin constellation</div>
+    </div>
+  </div>
+
+
+  <div class="container_img">
+    
+    <img  src="img/chef4.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">Martin has collected 8 Michelin stars, which makes him the best Spanish chef in the world. Among 10 restaurants that he owns, two are triple Michelin starred hotels. One of them is the famous Restaurante Martin Berasategui.
+
+        Berasategui specializes in Basque cuisine. His cooking is a kind of art, and he definitely knows how to serve meals.</div>
+    </div>
+  </div>
+
+
+
+
+
+
+   
+
+
+
+
+
+    <footer>
+      <p> FoodLove, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>
