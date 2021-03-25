@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="../firebase.js"></script>
+
+    <style>
+        .button {
+          background-color: #1b7a92; /* Green */
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button4 {border-radius: 12px;}
+        
+        </style>
+
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <img style="float:left;" src="./img/food_logo.jpg" width="150" height="100" >
+
+           <h1 class="highlight" style="float: right;">  Food Love </h1> 
+        </div>
+        <nav>
+          <ul>
+
+            <li ><a href="index.html">Home</a></li>
+            <li class="current"><a href="recipies.html">Recipies</a></li>
+            <li><a href="chefs.html">Chefs</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="checkout.html">Cart Checkout</a></li>
+            <div class="dropdown">
+              <button class="dropbtn"><i class="fa fa-fw fa-user"></i>USER
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="C:/Users/Chand/OneDrive/Desktop/SEEPROJECT/SignIn/SignUp.html">SignUp</a>
+                
+              </div>
+          </div>
+          <input type="submit" value="Logout" name="signin" id="signin" class="form-submit" onclick="goo()">
+           </ul>
+        </nav>
+      </div>
+    </header>
+
+   
+   
+   
+
+
+
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        
+        </form>
+      </div>
+    </section>
+    <h1 style="text-align: center;">Our Recipies</h1>
+
+
+
+
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./img/foodBeef.jpg">
+          <h3>Spicy Beef Steaks </h3>
+          <h2>34$</h2>
+         
+          <input type="button" id="beef" name="beef" class = "button button4"value="buy item">
+        </div>
+        <div class="box">
+          <img src="./img/foodBurger.jpg">
+          <h3>Cheesy Chicken Burger</h3>
+          <h2>31$</h2>
+         
+          <input type="button" id="chicken_burger" name="chicken_burger" class = "button button4"value="buy item">
+        </div>
+        <div class="box">
+          <img src="./img/foodPrawns.jpg">
+          <h3>Prawns</h3>
+          <h2>23$</h2>
+         
+          <input type="button" id="prawns" name="prawns" class = "button button4"value="buy item">
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="boxes">
+        <div class="container">
+          <div class="box">
+            <img src="./img/foodChiken.jpg">
+            <h3>Chicken tikka masala</h3>
+            <h2>33$</h2>
+            <p> </p>
+            <input type="button" id="chicken_tikka" name="chicken_tikka" class = "button button4"value="buy item">
+          </div>
+          <div class="box">
+            <img src="./img/foodCheeseBread.jpg">
+            <h3>Cheesy mayoneese Chicken Bread</h3>
+            <h2>20$</h2>
+           
+            <input type="button" id="mayo_chicken_bread" name="mayo_chicken_bread" class = "button button4"value="buy item">
+          </div>
+          <div class="box">
+            <img src="./img/foodPasta.jpg">
+            <h3>Pasta</h3>
+            <h2>18$</h2>
+            
+            <input type="button" id="pasta" name="pasta" class = "button button4"value="buy item">
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="boxes">
+        <div class="container">
+          <div class="box">
+            <img src="./img/foodChickenTandoori.jpg">
+            <h3>Chicken tandoori masala</h3>
+            <h2>46$</h2>
+            <p> </p>
+            <input type="button" id="chicken_tandoori" name="chicken_tandoori" class = "button button4"value="buy item">
+          </div>
+          <div class="box">
+            <img src="./img/foodMultigrain.webp">
+            <h3>Mexican spicy Multigrains cerals </h3>
+            <h2>25$</h2>
+           
+            <input type="button" id="cerals" name="cerals" class = "button button4"value="buy item">
+          </div>
+          <div class="box">
+            <img src="./img/foodChickenCurry.webp">
+            <h3>Indian spicy chicken curry</h3>
+            <h2>38$</h2>
+
+            <input type="button" id="chicken_curry" name="chicken_curry" class = "button button4"value="buy item">
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+    <footer>
+      <p> FoodLove, Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>
